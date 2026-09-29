@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTHA — 15 OCTOBER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="cursorGlow"></div>
+<div id="particles"></div>
+<div id="effectLayer"></div>
+
+<!-- INTRO -->
+
+<div id="intro">
+
+    <div class="intro-particles"></div>
+
+    <div class="intro-content">
+
+        <div class="intro-number">15 / 10</div>
+
+        <div class="intro-line"></div>
+
+        <p class="eyebrow">A PRIVATE CELEBRATION</p>
+
+        <h1>
+            <span>FOR</span>
+            ASTHA
+        </h1>
+
+        <p class="intro-sub">
+            A little something made specially for you.
+        </p>
+
+        <button id="enterBtn">
+            ENTER
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- MAIN -->
+
+<main id="main">
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <div class="logo">
+            ASTHA<span>.</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#countdown">COUNTDOWN</a>
+            <a href="#memories">MEMORIES</a>
+            <a href="#message">MESSAGE</a>
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+
+    <section id="home" class="hero reveal">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                15 OCTOBER
+            </p>
+
+            <h1 class="hero-title">
+                HAPPY
+                <span>BIRTHDAY</span>
+            </h1>
+
+            <div class="gold-divider"></div>
+
+            <h2>ASTHA</h2>
+
+            <p class="hero-description">
+                One special day.
+                One unforgettable person.
+                One beautiful celebration.
+            </p>
+
+            <button class="gold-btn" onclick="birthdaySurprise()">
+                MAKE A WISH
+            </button>
+
+        </div>
+
+
+        <!-- ORB -->
+
+        <div class="hero-visual">
+
+            <div class="orb">
+
+                <div class="orb-core"></div>
+
+                <div class="ring ring-one"></div>
+                <div class="ring ring-two"></div>
+                <div class="ring ring-three"></div>
+
+                <div class="orb-dot dot-one"></div>
+                <div class="orb-dot dot-two"></div>
+                <div class="orb-dot dot-three"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about reveal">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                THIS DAY
+            </p>
+
+            <h2>
+                MADE FOR <span>YOU</span>
+            </h2>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="info-card">
+
+                <div class="card-number">01</div>
+
+                <div class="card-icon"></div>
+
+                <h3>YOUR DAY</h3>
+
+                <p>
+                    A whole day dedicated to celebrating
+                    the person who makes ordinary moments
+                    feel special.
+                </p>
+
+            </div>
+
+            <div class="info-card">
+
+                <div class="card-number">02</div>
+
+                <div class="card-icon"></div>
+
+                <h3>YOUR MOMENTS</h3>
+
+                <p>
+                    Every memory has its own story.
+                    These are just a few moments worth
+                    keeping forever.
+                </p>
+
+            </div>
+
+            <div class="info-card">
+
+                <div class="card-number">03</div>
+
+                <div class="card-icon"></div>
+
+                <h3>YOUR FUTURE</h3>
+
+                <p>
+                    Here's to another year of new
+                    experiences, new memories and
+                    beautiful moments.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- COUNTDOWN -->
+
+    <section id="countdown" class="countdown-section reveal">
+
+        <p class="eyebrow">
+            THE SPECIAL DAY
+        </p>
+
+        <h2 class="section-title">
+            COUNTDOWN
+        </h2>
+
+        <div class="countdown">
+
+            <div class="time-card">
+                <strong id="days">00</strong>
+                <span>DAYS</span>
+            </div>
+
+            <div class="time-card">
+                <strong id="hours">00</strong>
+                <span>HOURS</span>
+            </div>
+
+            <div class="time-card">
+                <strong id="minutes">00</strong>
+                <span>MINUTES</span>
+            </div>
+
+            <div class="time-card">
+                <strong id="seconds">00</strong>
+                <span>SECONDS</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMORIES -->
+
+    <section id="memories" class="memories reveal">
+
+        <p class="eyebrow">
+            MOMENTS WORTH KEEPING
+        </p>
+
+        <h2 class="section-title">
+            MEMORIES
+        </h2>
+
+        <div class="gallery">
+
+            <div class="photo-card">
+
+                <img src="photo1.jpg">
+
+                <div class="photo-overlay">
+                    <span>MEMORY 01</span>
+                </div>
+
+            </div>
+
+            <div class="photo-card">
+
+                <img src="photo2.jpg">
+
+                <div class="photo-overlay">
+                    <span>MEMORY 02</span>
+                </div>
+
+            </div>
+
+            <div class="photo-card">
+
+                <img src="photo3.jpg">
+
+                <div class="photo-overlay">
+                    <span>MEMORY 03</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MESSAGE -->
+
+    <section id="message" class="message-section reveal">
+
+        <div class="message-card">
+
+            <div class="card-number">
+                04
+            </div>
+
+            <p class="eyebrow">
+                A MESSAGE
+            </p>
+
+            <h2>
+                Dear Astha,
+            </h2>
+
+            <p id="typing"></p>
+
+            <div class="signature">
+                — Made specially for you
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GIFT -->
+
+    <section class="gift-section reveal">
+
+        <p class="eyebrow">
+            SOMETHING IS WAITING
+        </p>
+
+        <h2 class="section-title">
+            THE FINAL SURPRISE
+        </h2>
+
+        <div class="gift-wrapper" onclick="openGift()">
+
+            <div class="gift-box">
+
+                <div class="gift-top"></div>
+
+                <div class="gift-body"></div>
+
+                <div class="gift-ribbon vertical"></div>
+
+                <div class="gift-ribbon horizontal"></div>
+
+                <div class="gift-bow left"></div>
+                <div class="gift-bow right"></div>
+
+            </div>
+
+        </div>
+
+        <p class="tap-text">
+            TAP TO OPEN
+        </p>
+
+    </section>
+
+
+    <!-- FINAL -->
+
+    <section id="finalReveal" class="final-section">
+
+        <div class="final-glow"></div>
+
+        <p class="eyebrow">
+            15 • 10
+        </p>
+
+        <h2>
+            HAPPY
+            <span>BIRTHDAY</span>
+        </h2>
+
+        <div class="final-line"></div>
+
+        <p>
+            ASTHA
+        </p>
+
+        <button class="gold-btn" onclick="finalExplosion()">
+            CELEBRATE
+        </button>
+
+    </section>
+
+
+    <!-- MUSIC -->
+
+    <button id="musicButton">
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+    <audio id="music" loop>
+        <source src="birthday.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <footer>
+
+        <div class="footer-line"></div>
+
+        <p>
+            MADE ESPECIALLY FOR ASTHA
+        </p>
+
+        <small>
+            15 — 10 — A SPECIAL DAY
+        </small>
+
+    </footer>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
